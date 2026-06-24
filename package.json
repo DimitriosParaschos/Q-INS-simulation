@@ -1,0 +1,21 @@
+{
+  "name": "quantum-ins-drift-simulation",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Interactive 3D dead-reckoning drift simulation comparing classical and quantum-enabled inertial sensors, companion to the paper \"Quantum Sensing Technologies for Inertial Navigation: A State-of-the-Art Review\".",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.165.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.1"
+  }
+}
